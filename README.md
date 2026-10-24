@@ -27,6 +27,7 @@ His autumn 2026 PSY2007D notebooks (séances 4 and 5) and the installation guide
 | Séance | Notebook | Content |
 |---|---|---|
 | 1 | [`00_preprocessing_teaching_seated.ipynb`](autumn-2026/seance1/00_preprocessing_teaching_seated.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/snesmaeili/PSY2007-Y-UdeM/blob/main/autumn-2026/seance1/00_preprocessing_teaching_seated.ipynb) | Preprocessing of one seated participant: bad channels, filtering and Auto-CCA, average reference, ICA, quality control, epochs and ERPs before and after cleaning |
+| 1 | [`00_preprocessing_teaching_walking.ipynb`](autumn-2026/seance1/00_preprocessing_teaching_walking.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/snesmaeili/PSY2007-Y-UdeM/blob/main/autumn-2026/seance1/00_preprocessing_teaching_walking.ipynb) | The same pipeline, unchanged, on the walking recordings of the same participant: what it leaves in walking data |
 
-The notebook downloads the course data (855 MB) once, into `tasks/brainwalk/` next to it, and installs the missing packages the first
-time it runs.
+The notebooks download the course data (1.2 GB, 17 participants) once, into `tasks/brainwalk/` next to them, and install the missing
+packages the first time they run.
